@@ -1,0 +1,73 @@
+.footer {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 30px 15px;
+  color: #ffffff;
+}
+
+.footer-logo img {
+  max-width: 200px;
+  margin-bottom: 1px;
+}
+
+.footer-contact {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.footer-apps {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.footer-apps-mail {
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-apps-whatsapp {
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-apps img:hover {
+  transform: scale(1.1);
+}
+
+.footer-rights {
+  font-size: 1rem;
+  color: #777;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px dotted #ccc;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #bebebe;
+}
+
+.powerd img{
+  margin: 30px;
+  height: 150px;
+  width: auto;
+  cursor: pointer;
+}
